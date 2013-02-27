@@ -28,7 +28,6 @@
 		35EC9EF716D802990025A511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EC9EC416D802970025A511 /* Foundation.framework */; };
 		35EC9EFF16D8029A0025A511 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35EC9EFD16D8029A0025A511 /* InfoPlist.strings */; };
 		35EC9F0216D8029A0025A511 /* Nourish_InternationalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35EC9F0116D8029A0025A511 /* Nourish_InternationalTests.m */; };
-		35EC9F0C16D81D420025A511 /* MainStoryboard_iPhone in Resources */ = {isa = PBXBuildFile; fileRef = 35EC9F0B16D81D420025A511 /* MainStoryboard_iPhone */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +69,6 @@
 		35EC9EFE16D8029A0025A511 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35EC9F0016D8029A0025A511 /* Nourish_InternationalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nourish_InternationalTests.h; sourceTree = "<group>"; };
 		35EC9F0116D8029A0025A511 /* Nourish_InternationalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nourish_InternationalTests.m; sourceTree = "<group>"; };
-		35EC9F0B16D81D420025A511 /* MainStoryboard_iPhone */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = MainStoryboard_iPhone; path = "../../../../../../NO NAME/MainStoryboard_iPhone"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 		35EC9EB616D802970025A511 = {
 			isa = PBXGroup;
 			children = (
-				35EC9F0B16D81D420025A511 /* MainStoryboard_iPhone */,
 				35EC9EC816D802970025A511 /* Nourish International */,
 				35EC9EFA16D802990025A511 /* Nourish InternationalTests */,
 				35EC9EC116D802970025A511 /* Frameworks */,
@@ -261,7 +258,6 @@
 				35EC9EE616D802990025A511 /* first@2x.png in Resources */,
 				35EC9EEB16D802990025A511 /* second.png in Resources */,
 				35EC9EED16D802990025A511 /* second@2x.png in Resources */,
-				35EC9F0C16D81D420025A511 /* MainStoryboard_iPhone in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +478,7 @@
 				35EC9F0716D8029A0025A511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35EC9F0816D8029A0025A511 /* Build configuration list for PBXNativeTarget "Nourish InternationalTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +487,7 @@
 				35EC9F0A16D8029A0025A511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

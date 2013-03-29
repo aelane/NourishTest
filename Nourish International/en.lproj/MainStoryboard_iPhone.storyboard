@@ -4,49 +4,49 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--First View Controller - First-->
+        <!--First View Controller - My Profile/settings (2)-->
         <scene sceneID="11">
             <objects>
-                <viewController title="First" id="2" customClass="GAIFirstViewController" sceneMemberID="viewController">
+                <viewController title="My Profile/settings (2)" id="2" customClass="GAIFirstViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bke-QL-Uf9">
-                                <rect key="frame" x="121" y="20" width="79" height="24"/>
+                                <rect key="frame" x="126" y="24" width="79" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="JYC-8c-SUX">
-                                <rect key="frame" x="223" y="60" width="79" height="27"/>
+                                <rect key="frame" x="224" y="73" width="79" height="27"/>
                             </switch>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="E-mail Notifications:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6dw-lb-ObF">
-                                <rect key="frame" x="26" y="62" width="177" height="24"/>
+                                <rect key="frame" x="27" y="70" width="177" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Text Notifications:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9El-On-mSf">
-                                <rect key="frame" x="26" y="93" width="159" height="24"/>
+                                <rect key="frame" x="27" y="113" width="159" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hours Volunteered:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d36-eg-9Fh">
-                                <rect key="frame" x="26" y="126" width="173" height="24"/>
+                                <rect key="frame" x="27" y="148" width="173" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="#####" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cpS-49-5NG">
-                                <rect key="frame" x="223" y="126" width="77" height="24"/>
+                                <rect key="frame" x="224" y="148" width="77" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="WGC-Hl-bZT">
-                                <rect key="frame" x="223" y="90" width="79" height="27"/>
+                                <rect key="frame" x="224" y="104" width="79" height="27"/>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -56,25 +56,84 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-330" y="73"/>
+            <point key="canvasLocation" x="-1322" y="819"/>
         </scene>
-        <!--Second View Controller - Second-->
+        <!--View Controller - My Events (2)-->
+        <scene sceneID="iG0-lG-TuP">
+            <objects>
+                <viewController title="My Events (2)" id="aYF-xy-A6i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="06e-Wt-nxG">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="XLG-am-el7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fHO-I4-xld" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-469" y="-368"/>
+        </scene>
+        <!--View Controller - Forum (3)-->
+        <scene sceneID="XQI-9G-b7F">
+            <objects>
+                <viewController title="Forum (3)" id="Sn8-zE-vWh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QTJ-kF-8ld">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="NPa-IN-4dl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fFh-lu-nzq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-732" y="643"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="E68-AL-hNp">
+            <objects>
+                <viewController id="lEF-3n-4sY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZMx-h2-qGD">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iZf-29-4hf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nNu-gc-pPy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-264" y="347"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NWL-7k-aQm">
+            <objects>
+                <viewController id="2Td-eo-WJZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1xJ-sw-1Ir">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nMm-n7-aSa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-360" y="1126"/>
+        </scene>
+        <!--Second View Controller - Calendar (1)-->
         <scene sceneID="13">
             <objects>
-                <viewController title="Second" id="3" customClass="GAISecondViewController" sceneMemberID="viewController">
+                <viewController title="Calendar (1)" id="3" customClass="GAISecondViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="22">
-                                <rect key="frame" x="20" y="101" width="280" height="43"/>
+                                <rect key="frame" x="20" y="100" width="280" height="43"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the second view controller — an instance of GAISecondViewController — specified in the app delegate." textAlignment="center" id="23">
-                                <rect key="frame" x="20" y="184" width="280" height="88"/>
+                                <rect key="frame" x="20" y="183" width="280" height="88"/>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textView>
@@ -85,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-349" y="887"/>
+            <point key="canvasLocation" x="-857" y="-701"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NRd-XQ-j5N">
@@ -168,7 +227,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="aQa-Nt-qCv" kind="push" id="IvH-2H-N6a"/>
+                                    <segue destination="aQa-Nt-qCv" kind="push" id="Osr-rW-31I"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Incorrect username or password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2eP-9Z-Wjk">
@@ -191,51 +250,51 @@
             <objects>
                 <viewController id="aQa-Nt-qCv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C4b-N0-sDW">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Recover Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DMj-JP-A5R">
-                                <rect key="frame" x="71" y="20" width="178" height="24"/>
+                                <rect key="frame" x="71" y="21" width="178" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="6OS-x6-re0">
-                                <rect key="frame" x="20" y="84" width="280" height="30"/>
+                                <rect key="frame" x="20" y="91" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="E-mail Address:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vx5-vG-787">
-                                <rect key="frame" x="20" y="52" width="142" height="24"/>
+                                <rect key="frame" x="20" y="56" width="142" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Security Question:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qwm-4I-Ucg">
-                                <rect key="frame" x="20" y="133" width="164" height="24"/>
+                                <rect key="frame" x="20" y="145" width="164" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Security question goes in this label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yag-2k-hMU">
-                                <rect key="frame" x="20" y="150" width="280" height="204"/>
+                                <rect key="frame" x="20" y="172" width="280" height="204"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="59t-QD-Brk">
-                                <rect key="frame" x="20" y="394" width="280" height="30"/>
+                                <rect key="frame" x="20" y="430" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Answer:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EPa-74-ci2">
-                                <rect key="frame" x="20" y="362" width="205" height="24"/>
+                                <rect key="frame" x="20" y="395" width="205" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aYJ-J1-pcT">
-                                <rect key="frame" x="106" y="432" width="109" height="55"/>
+                                <rect key="frame" x="106" y="474" width="109" height="55"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -244,6 +303,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="X3H-3a-JPl" kind="modal" id="5OD-cy-f6f"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -252,7 +314,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKM-qo-aOD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1459" y="716"/>
+            <point key="canvasLocation" x="-1943" y="496"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bt8-Iu-sy5">
@@ -361,7 +423,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RmD-FP-cAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1331" y="-748"/>
+            <point key="canvasLocation" x="-1911" y="-936"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="reO-ay-OAU">
@@ -401,6 +463,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="X3H-3a-JPl" kind="modal" id="lKz-yC-Idl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -409,7 +474,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gea-Pm-Dw3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-788" y="-755"/>
+            <point key="canvasLocation" x="-1470" y="-887"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
@@ -423,13 +488,15 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
                         <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
+                        <segue destination="aYF-xy-A6i" kind="relationship" relationship="viewControllers" id="zY6-yg-dIO"/>
+                        <segue destination="Sn8-zE-vWh" kind="relationship" relationship="viewControllers" id="qaT-Ml-5XJ"/>
+                        <segue destination="2" kind="relationship" relationship="viewControllers" id="8gO-iI-LMx"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-931" y="73"/>
+            <point key="canvasLocation" x="-1195" y="-17"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6Xp-Oj-WAA">
@@ -467,4 +534,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="5OD-cy-f6f"/>
+    </inferredMetricsTieBreakers>
 </document>
